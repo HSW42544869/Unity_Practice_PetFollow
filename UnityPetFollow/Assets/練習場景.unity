@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u98DB\u9F8D"
       objectReference: {fileID: 0}
+    - target: {fileID: 100102, guid: ee6ce4597351e9b4fbcd1efe7eddbb00, type: 3}
+      propertyPath: m_TagString
+      value: FlyingDragon
+      objectReference: {fileID: 0}
     - target: {fileID: 400102, guid: ee6ce4597351e9b4fbcd1efe7eddbb00, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -141,7 +145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400102, guid: ee6ce4597351e9b4fbcd1efe7eddbb00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5
+      value: -2.81
       objectReference: {fileID: 0}
     - target: {fileID: 400102, guid: ee6ce4597351e9b4fbcd1efe7eddbb00, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1190,6 +1194,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.75
   m_Center: {x: 0, y: 1.75, z: 0}
+--- !u!114 &1107971897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107971892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1db6c8e86010604684a87075e98bf09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1390058443}
+  speed: 1.5
 --- !u!1001 &1182290461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1366,6 +1384,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 600
   turn: 200
+--- !u!4 &1390058443 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400028, guid: 859c3def7b0fdca4ba4a59bb97a3cb47,
+    type: 3}
+  m_PrefabInstance: {fileID: 1562395755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1463068356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1439,6 +1463,10 @@ PrefabInstance:
     - target: {fileID: 100028, guid: 859c3def7b0fdca4ba4a59bb97a3cb47, type: 3}
       propertyPath: m_Name
       value: "\u91CE\u883B\u4EBA"
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 859c3def7b0fdca4ba4a59bb97a3cb47, type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 400028, guid: 859c3def7b0fdca4ba4a59bb97a3cb47, type: 3}
       propertyPath: m_LocalPosition.x
